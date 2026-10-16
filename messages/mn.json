@@ -1,0 +1,612 @@
+{
+  "sidebar": {
+    "search": "Хайх...",
+    "nav": {
+      "pulse": "Пульс",
+      "pulseDesc": "Тойм",
+      "architect": "Архитект",
+      "architectDesc": "Кампани",
+      "engine": "Систем",
+      "engineDesc": "Аналитик",
+      "products": "Бараа",
+      "productsDesc": "Каталог",
+      "looks": "Лук",
+      "looksDesc": "Shop the Look",
+      "content": "Контент",
+      "contentDesc": "Баннер",
+      "intel": "Тагнуул",
+      "intelDesc": "Үзэгч",
+      "budget": "Төсөв",
+      "budgetDesc": "Санхүү"
+    },
+    "settings": "Тохиргоо",
+    "userName": "Жон До",
+    "userRole": "Маркетингийн удирдагч",
+    "roles": {
+      "admin": "Админ",
+      "manager": "Дэлгүүрийн менежер",
+      "marketer": "Маркетер",
+      "user": "Хэрэглэгч"
+    }
+  },
+  "commandSearch": {
+    "placeholder": "Тушаал, хуудас, кампани хайх...",
+    "empty": "Үр дүн олдсонгүй.",
+    "groups": {
+      "pages": "Хуудсууд",
+      "quickActions": "Хурдан үйлдлүүд"
+    },
+    "pages": {
+      "pulse": "Пульс самбар",
+      "architect": "Кампанийн архитект",
+      "engine": "Гүйцэтгэлийн систем",
+      "products": "Бараа",
+      "looks": "Shop the Look",
+      "content": "Сайтын контент",
+      "intel": "Үзэгчийн тагнуул",
+      "budget": "Төсвийн менежер"
+    },
+    "actions": {
+      "newCampaign": "Шинэ кампани үүсгэх",
+      "topPerformers": "Шилдэг гүйцэтгэгчдийг үзэх",
+      "exportReport": "Тайлан экспортлох"
+    }
+  },
+  "pulse": {
+    "badge": "Бодит цагийн тойм",
+    "title": "Пульс самбар",
+    "subtitle": "Маркетингийн гүйцэтгэлийг нэг дор хянаарай",
+    "refresh": "Шинэчлэх",
+    "cards": {
+      "impressions": "Нийт харагдацын тоо",
+      "roas": "Идэвхтэй ROAS",
+      "conversion": "Хөрвөлтийн хувь",
+      "clicks": "Нийт дарагдсан тоо"
+    },
+    "highlights": {
+      "title": "Өнөөдрийн онцлохууд",
+      "bestPerformer": "Шилдэг гүйцэтгэгч",
+      "lowestCpa": "Хамгийн бага CPA",
+      "newLeads": "Шинэ хэрэглэгч"
+    }
+  },
+  "campaignFeed": {
+    "title": "Амьд кампанийн тэжээл",
+    "active": "идэвхтэй",
+    "status": {
+      "live": "АМЬД",
+      "scheduled": "ХУВААРЬТ",
+      "paused": "ЗОГССОН",
+      "ended": "ДУУССАН"
+    },
+    "actions": {
+      "pause": "Кампани зогсоох",
+      "resume": "Кампани үргэлжлүүлэх",
+      "delete": "Кампани устгах"
+    }
+  },
+  "spendCounter": {
+    "title": "Өдрийн зарцуулалт",
+    "ofBudget": "% төсвийн"
+  },
+  "analytics": {
+    "badge": "Гүнзгий аналитик",
+    "title": "Гүйцэтгэлийн систем",
+    "subtitle": "Иж бүрэн аналитик болон хуваарилалтын мэдээлэл",
+    "last30Days": "Сүүлийн 30 хоног",
+    "last30DaysMobile": "30Х",
+    "export": "Экспорт",
+    "metrics": {
+      "avgRoas": "Дундаж ROAS",
+      "avgRoasDetail": "өмнөх үетэй харьцуулахад 3.7x",
+      "totalRevenue": "Нийт орлого",
+      "totalRevenueDetail": "Бүх сувгаас",
+      "cpa": "Шилжилтийн зардал",
+      "cpaDetail": "Зорилтоос 15% доогуур",
+      "ctr": "Дарагдалтын хувь",
+      "ctrDetail": "Салбарын дундаж: 2.1%",
+      "convRate": "Хөрвөлтийн хувь",
+      "convRateDetail": "Q4-өөс бага бууралт",
+      "ltv": "Хэрэглэгчийн LTV",
+      "ltvDetail": "$278-аас өссөн"
+    },
+    "performanceChart": {
+      "title": "ROAS ба Зарцуулалт",
+      "subtitle": "Сүүлийн 30 хоногийн гүйцэтгэл",
+      "roas": "ROAS",
+      "spend": "Зарцуулалт"
+    },
+    "attributionRadar": {
+      "title": "Сувгийн хуваарилалт",
+      "subtitle": "Сувгийн орлогын хувь нэмэр",
+      "label": "Хуваарилалт"
+    },
+    "channelBreakdown": {
+      "title": "Сувгийн задаргаа",
+      "columns": {
+        "channel": "Суваг",
+        "spend": "Зарцуулалт",
+        "revenue": "Орлого",
+        "roas": "ROAS",
+        "conversions": "Хөрвөлтүүд",
+        "share": "Хувь"
+      }
+    }
+  },
+  "architect": {
+    "badge": "Кампанийн менежмент",
+    "title": "Кампанийн архитект",
+    "subtitle": "Кампанийн хуваарийг харж удирдаарай",
+    "filter": {
+      "all": "Бүх төлөв",
+      "live": "Амьд",
+      "paused": "Зогссон",
+      "scheduled": "Хуваарьт",
+      "ended": "Дууссан"
+    },
+    "export": "Экспорт",
+    "newCampaign": "Шинэ кампани",
+    "stats": {
+      "total": "Нийт кампани",
+      "active": "Одоо идэвхтэй",
+      "scheduled": "Хуваарьт",
+      "budget": "Нийт төсөв"
+    },
+    "modal": {
+      "createTitle": "Шинэ кампани үүсгэх",
+      "name": "Кампанийн нэр",
+      "namePlaceholder": "Кампанийн нэр оруулах",
+      "channel": "Суваг",
+      "budget": "Төсөв ($)",
+      "startDate": "Эхлэх огноо",
+      "endDate": "Дуусах огноо",
+      "cancel": "Болих",
+      "create": "Кампани үүсгэх"
+    },
+    "details": {
+      "title": "Кампанийн дэлгэрэнгүй",
+      "hint": "Дэлгэрэнгүй мэдээллийг харахын тулд кампанийг дарна уу",
+      "budgetLabel": "Төсөв",
+      "pause": "Зогсоох",
+      "resume": "Үргэлжлүүлэх",
+      "dropdown": {
+        "pause": "Кампани зогсоох",
+        "resume": "Кампани үргэлжлүүлэх",
+        "delete": "Кампани устгах"
+      }
+    },
+    "gantt": {
+      "title": "Кампанийн хуваарь",
+      "column": "Кампани",
+      "status": {
+        "live": "амьд",
+        "scheduled": "хуваарьт",
+        "paused": "зогссон",
+        "ended": "дууссан"
+      },
+      "empty": "Энэ хугацаанд кампани байхгүй",
+      "modal": {
+        "viewTitle": "Кампанийн дэлгэрэнгүй",
+        "editTitle": "Кампани засах",
+        "stats": {
+          "budget": "Төсөв",
+          "progress": "Явц",
+          "startDate": "Эхлэх огноо",
+          "endDate": "Дуусах огноо"
+        },
+        "progressLabel": "Явц",
+        "changeStatus": "Төлөв өөрчлөх",
+        "startCampaign": "Кампани эхлүүлэх",
+        "pause": "Зогсоох",
+        "resume": "Үргэлжлүүлэх",
+        "markCompleted": "Дууссан гэж тэмдэглэх",
+        "cancel": "Болих",
+        "edit": "Кампани засах",
+        "save": "Өөрчлөлт хадгалах",
+        "name": "Кампанийн нэр",
+        "channel": "Суваг",
+        "budget": "Төсөв ($)",
+        "progress": "Явц (%)"
+      }
+    }
+  },
+  "audience": {
+    "badge": "Үзэгчийн тагнуул",
+    "title": "Үзэгчийн тагнуул",
+    "subtitle": "Үзэгчийн демографи болон зан төлөвийн гүнзгий мэдээлэл",
+    "segments": "Хэсгүүд",
+    "create": "Үүсгэх",
+    "stats": {
+      "reach": "Нийт хүрэх тоо",
+      "reachChange": "+12.4% энэ сард",
+      "activeUsers": "Идэвхтэй хэрэглэгчид",
+      "activeUsersChange": "+8.7% энэ сард",
+      "avgSession": "Дундаж хуралдаан",
+      "avgSessionChange": "өнгөрсөн сараас +15с",
+      "retention": "Хадгалалтын хувь",
+      "retentionChange": "-2.1% энэ сард"
+    },
+    "charts": {
+      "ageTitle": "Насны тархалт",
+      "genderTitle": "Хүйсний тархалт",
+      "locationsTitle": "Шилдэг байршлууд",
+      "shareLegend": "Хувь",
+      "usersLegend": "Хэрэглэгч"
+    },
+    "segments_table": {
+      "title": "Үзэгчийн хэсгүүд",
+      "manage": "Хэсгүүдийг удирдах",
+      "columns": {
+        "segment": "Хэсэг",
+        "size": "Хэмжээ",
+        "ltv": "Дундаж LTV",
+        "engagement": "Оролцоо",
+        "actions": "Үйлдэл"
+      },
+      "engagement": {
+        "high": "Өндөр",
+        "medium": "Дунд",
+        "low": "Бага"
+      },
+      "target": "Зорих"
+    }
+  },
+  "budget": {
+    "badge": "Санхүүгийн тойм",
+    "title": "Төсвийн менежер",
+    "subtitle": "Маркетингийн зарцуулалтыг хянаж удирдаарай",
+    "forecast": "Таамаглал",
+    "addFunds": "Хөрөнгө нэмэх",
+    "modal": {
+      "title": "Хөрөнгө нэмэх",
+      "amountLabel": "Дүн ($)",
+      "cancel": "Болих",
+      "submit": "$ нэмэх"
+    },
+    "overview": {
+      "annual": "Жилийн төсөв",
+      "spent": "Зарцуулсан",
+      "projected": "Төлөвлөсөн",
+      "remaining": "Үлдэгдэл",
+      "untilEOY": "Жилийн эцэс хүртэл",
+      "monthlyAvg": "Сарын дундаж",
+      "underTarget": "Зорилтоос 5% доогуур"
+    },
+    "spendChart": "Сарын зарцуулалт ба төсөв",
+    "channelBudgets": "Сувгийн төсвүүд",
+    "transactions": {
+      "title": "Сүүлийн гүйлгээнүүд",
+      "viewAll": "Бүгдийг харах"
+    }
+  },
+  "settings": {
+    "badge": "Тохиргоо",
+    "title": "Тохиргоо",
+    "subtitle": "Бүртгэл болон програмын тохиргоогоо удирдаарай",
+    "sections": {
+      "profile": {
+        "title": "Профайл",
+        "description": "Хувийн мэдээлэл болон тохиргоогоо удирдаарай",
+        "fullName": "Бүтэн нэр",
+        "email": "Имэйл",
+        "role": "Үүрэг"
+      },
+      "notifications": {
+        "title": "Мэдэгдэлүүд",
+        "description": "Анхааруулга болон шинэчлэлтийг хэрхэн хүлээн авахыг тохируулах",
+        "email": "Имэйл мэдэгдэл",
+        "push": "Пуш мэдэгдэл",
+        "digest": "Долоо хоногийн хураангуй",
+        "enabled": "Идэвхжүүлсэн",
+        "disabled": "Идэвхгүй"
+      },
+      "security": {
+        "title": "Аюулгүй байдал",
+        "description": "Бүртгэлийн аюулгүй байдлын тохиргоогоо удирдаарай",
+        "twoFactor": "Хоёр хүчин зүйлийн баталгаажуулалт",
+        "lastLogin": "Сүүлийн нэвтрэлт",
+        "sessions": "Идэвхтэй сессүүд"
+      },
+      "integrations": {
+        "title": "Интеграцүүд",
+        "description": "Гадаад үйлчилгээ болон API холбох",
+        "meta": "Meta Ads",
+        "google": "Google Ads",
+        "tiktok": "TikTok Ads",
+        "connected": "Холбогдсон",
+        "notConnected": "Холбогдоогүй"
+      }
+    },
+    "danger": {
+      "title": "Аюулт бүс",
+      "subtitle": "Буцаах боломжгүй бүртгэлийн үйлдлүүд",
+      "delete": "Бүртгэл устгах"
+    }
+  },
+  "notifications": {
+    "campaignCreated": "Кампани үүссэн",
+    "campaignCreatedMsg": "{name} үүсгэгдлээ",
+    "campaignDeleted": "Кампани устгагдсан",
+    "campaignDeletedMsg": "{name} устгагдлаа",
+    "assetUploaded": "Хөрөнгө байршуулагдсан",
+    "assetUploadedMsg": "{name} нэмэгдлээ",
+    "assetDeleted": "Хөрөнгө устгагдсан",
+    "assetDeletedMsg": "{name} хасагдлаа",
+    "fundsAdded": "Хөрөнгө нэмэгдсэн",
+    "fundsAddedMsg": "${amount} төсөвт нэмэгдлээ",
+    "loadMore": "Илүү их ачаалах",
+    "loadMoreMsg": "Серверээс илүү их хөрөнгө ачаалагдана",
+    "assetSelected": "Хөрөнгө сонгогдсон",
+    "assetSelectedMsg": "{name}-г харж байна"
+  },
+  "theme": {
+    "toLightMode": "Гэрэлт горимд шилжих",
+    "toDarkMode": "Харанхуй горимд шилжих"
+  },
+  "languageSwitcher": {
+    "label": "Хэл",
+    "en": "English",
+    "mn": "Монгол",
+    "ko": "한국어"
+  },
+  "auth": {
+    "badge": "АДМИН НЭВТРЭЛТ",
+    "title": "Нэвтрэх",
+    "subtitle": "KUENEREE удирдлага — бараа, кампанит ажил, төсөв.",
+    "email": "Имэйл",
+    "password": "Нууц үг",
+    "submit": "Нэвтрэх",
+    "submitting": "Нэвтэрч байна…",
+    "signOut": "Гарах",
+    "loading": "Шалгаж байна…",
+    "apiHint": "API: {url}",
+    "storeLink": "Дэлгүүр нээх"
+  },
+  "common": {
+    "save": "Хадгалах",
+    "saving": "Хадгалж байна…",
+    "cancel": "Болих",
+    "delete": "Устгах",
+    "edit": "Засах",
+    "add": "Нэмэх",
+    "retry": "Дахин оролдох",
+    "loading": "Ачаалж байна…",
+    "loadError": "Өгөгдөл ачаалж чадсангүй",
+    "saved": "Хадгалагдлаа",
+    "deleted": "Устгагдлаа",
+    "confirm": "Итгэлтэй байна уу?",
+    "close": "Хаах",
+    "search": "Хайх…",
+    "all": "Бүгд",
+    "none": "Байхгүй",
+    "unsaved": "Хадгалаагүй өөрчлөлт байна. Орхих уу?"
+  },
+  "products": {
+    "badge": "КАТАЛОГ",
+    "title": "Бараа",
+    "subtitle": "kueneree дээр зарагдах бүх бараа — үнэ, хэмжээ, үлдэгдэл, зураг.",
+    "new": "Шинэ бараа",
+    "categories": "Ангилал",
+    "viewStore": "Дэлгүүр харах",
+    "stats": {
+      "total": "Нийт бараа",
+      "active": "Дэлгүүрт идэвхтэй",
+      "draft": "Ноорог / архив",
+      "lowStock": "Үлдэгдэл бага хэмжээ",
+      "inventoryValue": "Үлдэгдлийн үнэлгээ"
+    },
+    "filters": {
+      "all": "Бүгд",
+      "active": "Идэвхтэй",
+      "draft": "Ноорог",
+      "archived": "Архив",
+      "category": "Ангилал",
+      "allCategories": "Бүх ангилал",
+      "search": "Нэр эсвэл SKU-аар хайх…"
+    },
+    "view": {
+      "grid": "Карт",
+      "table": "Хүснэгт"
+    },
+    "status": {
+      "ACTIVE": "Идэвхтэй",
+      "DRAFT": "Ноорог",
+      "ARCHIVED": "Архив"
+    },
+    "columns": {
+      "product": "Бараа",
+      "category": "Ангилал",
+      "price": "Үнэ",
+      "stock": "Үлдэгдэл",
+      "status": "Төлөв",
+      "updated": "Шинэчилсэн"
+    },
+    "card": {
+      "featured": "Онцлох",
+      "noSizes": "Хэмжээгүй",
+      "soldOut": "Дууссан",
+      "units": "ш",
+      "publish": "Нийтлэх",
+      "unpublish": "Ноорог болгох",
+      "openInStore": "Дэлгүүрт харах"
+    },
+    "empty": {
+      "title": "Бараа алга байна",
+      "subtitle": "Анхны бараагаа нэмээрэй — Идэвхтэй төлөвтэй болмогц kueneree дээр гарна.",
+      "filtered": "Шүүлтүүрт тохирох бараа олдсонгүй."
+    },
+    "editor": {
+      "createTitle": "Шинэ бараа",
+      "editTitle": "Бараа засах",
+      "sections": {
+        "general": "Ерөнхий",
+        "media": "Зураг",
+        "inventory": "Хэмжээ ба үлдэгдэл",
+        "details": "Дэлгэрэнгүй",
+        "translations": "Орчуулга"
+      },
+      "name": "Нэр (монгол)",
+      "namePlaceholder": "Зузаан Цахилгаантай Худди",
+      "slug": "URL slug",
+      "slugHint": "Хоосон бол нэрээс автоматаар үүснэ",
+      "category": "Ангилал",
+      "noCategory": "Ангилалгүй",
+      "status": "Төлөв",
+      "featured": "Нүүр хуудсанд онцлох",
+      "drop": "Дроп",
+      "dropPlaceholder": "DROP 01 — FW 26",
+      "price": "Үнэ (₮)",
+      "compareAt": "Хуучин үнэ (₮)",
+      "compareAtHint": "Үнээс өндөр бол зурааслан харагдана",
+      "upload": "Зураг оруулах",
+      "dropzone": "Зургаа энд чирж оруулах эсвэл дарж сонгох",
+      "dropzoneNote": "JPG, PNG, WEBP · 15 MB хүртэл · эхний зураг нүүр зураг болно",
+      "addUrl": "URL-аар нэмэх",
+      "urlPlaceholder": "https://… эсвэл /images/…",
+      "cover": "Нүүр",
+      "makeCover": "Нүүр зураг болгох",
+      "moveLeft": "Зүүн тийш",
+      "moveRight": "Баруун тийш",
+      "remove": "Хасах",
+      "uploading": "Оруулж байна…",
+      "size": "Хэмжээ",
+      "color": "Өнгө",
+      "sku": "SKU",
+      "stock": "Үлдэгдэл",
+      "priceOverride": "Тусгай үнэ",
+      "addSize": "Хэмжээ нэмэх",
+      "presetApparel": "XS–XL",
+      "presetOne": "Нэг хэмжээ",
+      "noVariants": "Хэмжээгүй — хэмжээ сонгохгүйгээр зарагдана.",
+      "totalStock": "Нийт үлдэгдэл",
+      "colorName": "Өнгөний нэр",
+      "colorHex": "Өнгөний дээж",
+      "fitNote": "Эсгүүрийн тайлбар",
+      "description": "Тайлбар",
+      "details": "Дэлгэрэнгүй",
+      "care": "Материал ба арчилгаа",
+      "translationsHint": "Худалдан авагч хэлээ солиход харагдана. Хоосон бол монгол хувилбар харагдана.",
+      "errors": {
+        "name": "Нэр оруулна уу",
+        "price": "Үнэ 0-ээс багагүй байна",
+        "uploadFailed": "Зураг оруулж чадсангүй"
+      }
+    },
+    "delete": {
+      "title": "Барааг устгах уу?",
+      "description": "“{name}” дэлгүүрээс устгагдана. Өмнөх захиалгууд хуулбараа хадгална. Буцаах боломжгүй."
+    },
+    "categoryManager": {
+      "title": "Ангилал",
+      "subtitle": "kueneree-ийн ангиллын хэсэг болон дэлгүүрийн шүүлтүүрт харагдана.",
+      "name": "Нэр (MN)",
+      "en": "EN",
+      "ko": "KO",
+      "add": "Ангилал нэмэх",
+      "products": "бараа",
+      "deleteConfirm": "“{name}” ангиллыг устгах уу? Бараанууд ангилалгүй болж үлдэнэ."
+    },
+    "toast": {
+      "created": "Бараа нэмэгдлээ",
+      "updated": "Бараа хадгалагдлаа",
+      "deleted": "Бараа устгагдлаа",
+      "statusChanged": "Төлөв шинэчлэгдлээ"
+    }
+  },
+  "looks": {
+    "badge": "SHOP THE LOOK",
+    "title": "Лук",
+    "subtitle": "kueneree нүүр хуудсанд гарах, цэг дээр дарж худалдан авдаг зургууд. Үнэ бараанаас автоматаар.",
+    "new": "Шинэ лук",
+    "empty": "Лук алга байна — шинээр үүсгэж, зургаа оруулаад хувцас дээр дарж цэг тавина уу.",
+    "published": "Нийтлэгдсэн",
+    "draft": "Ноорог",
+    "items": "бараа",
+    "moveUp": "Өмнө нь",
+    "moveDown": "Дараа нь",
+    "deleteConfirm": "“{name}”-ийг устгах уу?",
+    "saved": "Лук хадгалагдлаа",
+    "deleted": "Лук устгагдлаа",
+    "editor": {
+      "createTitle": "Шинэ лук",
+      "editTitle": "Лук засах",
+      "image": "Зураг",
+      "dropImage": "Зургаа энд чирж оруулах эсвэл дарж сонгох",
+      "dropNote": "Босоо, хэвтээ аль ч хэлбэр · жинхэнэ харьцаагаар харагдана · цэг %-иар хадгалагдана",
+      "replace": "Зураг солих",
+      "canvasHint": "Хувцас дээр дарж цэг нэмнэ · цэгийг чирж байрлалыг засна",
+      "titleMn": "Гарчиг (MN)",
+      "titleEn": "Гарчиг (EN)",
+      "titleKo": "Гарчиг (KO)",
+      "publish": "Дэлгүүрт нийтлэх",
+      "discount": "Бүтэн лукийн хямдрал (%)",
+      "discountHint": "0 = хямдралгүй. Бүтэн лукийг сагсанд хийхэд автоматаар хэрэглэгдэнэ.",
+      "pieces": "Цэгүүд",
+      "noPieces": "Цэг алга — зураг дээр дарна уу.",
+      "pickProduct": "Бараа сонгох",
+      "searchProduct": "Бараа хайх…",
+      "inactive": "идэвхгүй",
+      "remove": "Хасах",
+      "total": "Нийт",
+      "bundle": "Бүтэн лукийн үнэ",
+      "errors": {
+        "title": "Гарчиг оруулна уу",
+        "image": "Зураг оруулна уу",
+        "product": "Цэг бүрт бараа сонгоно уу",
+        "duplicate": "Нэг бараа лук дээр нэг л удаа орно"
+      }
+    }
+  },
+  "content": {
+    "badge": "САЙТЫН КОНТЕНТ",
+    "title": "Контент",
+    "subtitle": "kueneree нүүр хуудасны баннер, гарчиг, текстүүд.",
+    "save": "Хадгалах",
+    "saved": "Хадгалагдлаа — дэлгүүрт шууд харагдана",
+    "preview": "Дэлгүүр нээх",
+    "lang": "Хэл",
+    "hero": {
+      "title": "Hero баннер",
+      "desc": "Нүүр хуудасны дээд талын бүтэн дэлгэцийн зураг, гарчиг.",
+      "image": "Баннер зураг",
+      "eyebrow": "Жижиг мөр (eyebrow)",
+      "line1": "Гарчиг — 1-р мөр",
+      "line2": "Гарчиг — 2-р мөр (ногоон)",
+      "drop": "Дропын бичиг",
+      "frame": "Хажуугийн бичиг",
+      "subtitle": "Дэд гарчиг",
+      "cta": "Товчны бичиг"
+    },
+    "ticker": {
+      "title": "Гүйдэг мөр",
+      "desc": "Гүйдэг зарлалын зурвас.",
+      "text": "Зарлалын текст"
+    },
+    "campaign": {
+      "title": "Кампани",
+      "desc": "Хоёр зурагтай кампанийн хэсэг.",
+      "line1": "Гарчиг — 1-р мөр",
+      "line2": "Гарчиг — 2-р мөр (ногоон)",
+      "image1": "Зураг 1",
+      "image2": "Зураг 2",
+      "date": "Газар / огноо"
+    },
+    "community": {
+      "title": "Хамт олон",
+      "desc": "Хэштэгийн хэсэг.",
+      "hashtag": "Хэштэг",
+      "text": "Текст"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "desc": "Footer-ийн дээрх бүртгэлийн хэсэг.",
+      "heading": "Гарчиг"
+    },
+    "image": {
+      "upload": "Оруулах",
+      "url": "эсвэл URL",
+      "remove": "Хасах",
+      "uploading": "Оруулж байна…"
+    }
+  }
+}

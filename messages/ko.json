@@ -1,0 +1,612 @@
+{
+  "sidebar": {
+    "search": "검색...",
+    "nav": {
+      "pulse": "펄스",
+      "pulseDesc": "개요",
+      "architect": "아키텍트",
+      "architectDesc": "캠페인",
+      "engine": "엔진",
+      "engineDesc": "분석",
+      "products": "상품",
+      "productsDesc": "카탈로그",
+      "looks": "룩",
+      "looksDesc": "Shop the Look",
+      "content": "콘텐츠",
+      "contentDesc": "배너",
+      "intel": "인텔",
+      "intelDesc": "오디언스",
+      "budget": "예산",
+      "budgetDesc": "재무"
+    },
+    "settings": "설정",
+    "userName": "홍길동",
+    "userRole": "마케팅 팀장",
+    "roles": {
+      "admin": "관리자",
+      "manager": "스토어 매니저",
+      "marketer": "마케터",
+      "user": "고객"
+    }
+  },
+  "commandSearch": {
+    "placeholder": "명령, 페이지, 캠페인 검색...",
+    "empty": "결과를 찾을 수 없습니다.",
+    "groups": {
+      "pages": "페이지",
+      "quickActions": "빠른 실행"
+    },
+    "pages": {
+      "pulse": "펄스 대시보드",
+      "architect": "캠페인 아키텍트",
+      "engine": "성과 엔진",
+      "products": "상품",
+      "looks": "Shop the Look",
+      "content": "사이트 콘텐츠",
+      "intel": "오디언스 인텔",
+      "budget": "예산 매니저"
+    },
+    "actions": {
+      "newCampaign": "새 캠페인 만들기",
+      "topPerformers": "상위 성과자 보기",
+      "exportReport": "보고서 내보내기"
+    }
+  },
+  "pulse": {
+    "badge": "실시간 개요",
+    "title": "펄스 대시보드",
+    "subtitle": "마케팅 성과를 한눈에 모니터링하세요",
+    "refresh": "새로고침",
+    "cards": {
+      "impressions": "총 노출 수",
+      "roas": "활성 ROAS",
+      "conversion": "전환율",
+      "clicks": "총 클릭 수"
+    },
+    "highlights": {
+      "title": "오늘의 하이라이트",
+      "bestPerformer": "최고 성과자",
+      "lowestCpa": "최저 CPA",
+      "newLeads": "신규 리드"
+    }
+  },
+  "campaignFeed": {
+    "title": "실시간 캠페인 피드",
+    "active": "활성",
+    "status": {
+      "live": "라이브",
+      "scheduled": "예약됨",
+      "paused": "일시중지",
+      "ended": "종료됨"
+    },
+    "actions": {
+      "pause": "캠페인 일시중지",
+      "resume": "캠페인 재개",
+      "delete": "캠페인 삭제"
+    }
+  },
+  "spendCounter": {
+    "title": "일일 지출",
+    "ofBudget": "% 예산 사용"
+  },
+  "analytics": {
+    "badge": "심층 분석",
+    "title": "성과 엔진",
+    "subtitle": "종합적인 분석 및 어트리뷰션 인사이트",
+    "last30Days": "최근 30일",
+    "last30DaysMobile": "30일",
+    "export": "내보내기",
+    "metrics": {
+      "avgRoas": "평균 ROAS",
+      "avgRoasDetail": "이전 기간 3.7x 대비",
+      "totalRevenue": "총 수익",
+      "totalRevenueDetail": "모든 채널 합산",
+      "cpa": "전환 비용",
+      "cpaDetail": "목표 대비 15% 낮음",
+      "ctr": "클릭률",
+      "ctrDetail": "업계 평균: 2.1%",
+      "convRate": "전환율",
+      "convRateDetail": "Q4 대비 소폭 감소",
+      "ltv": "고객 LTV",
+      "ltvDetail": "$278에서 상승"
+    },
+    "performanceChart": {
+      "title": "ROAS vs 지출",
+      "subtitle": "최근 30일 성과",
+      "roas": "ROAS",
+      "spend": "지출"
+    },
+    "attributionRadar": {
+      "title": "채널 어트리뷰션",
+      "subtitle": "채널별 수익 기여도",
+      "label": "어트리뷰션"
+    },
+    "channelBreakdown": {
+      "title": "채널 분석",
+      "columns": {
+        "channel": "채널",
+        "spend": "지출",
+        "revenue": "수익",
+        "roas": "ROAS",
+        "conversions": "전환",
+        "share": "비율"
+      }
+    }
+  },
+  "architect": {
+    "badge": "캠페인 관리",
+    "title": "캠페인 아키텍트",
+    "subtitle": "캠페인 타임라인을 시각화하고 관리하세요",
+    "filter": {
+      "all": "전체 상태",
+      "live": "라이브",
+      "paused": "일시중지",
+      "scheduled": "예약됨",
+      "ended": "종료됨"
+    },
+    "export": "내보내기",
+    "newCampaign": "새 캠페인",
+    "stats": {
+      "total": "총 캠페인",
+      "active": "현재 활성",
+      "scheduled": "예약됨",
+      "budget": "총 예산"
+    },
+    "modal": {
+      "createTitle": "새 캠페인 만들기",
+      "name": "캠페인 이름",
+      "namePlaceholder": "캠페인 이름 입력",
+      "channel": "채널",
+      "budget": "예산 ($)",
+      "startDate": "시작일",
+      "endDate": "종료일",
+      "cancel": "취소",
+      "create": "캠페인 생성"
+    },
+    "details": {
+      "title": "캠페인 상세정보",
+      "hint": "캠페인을 클릭하여 상세정보를 확인하세요",
+      "budgetLabel": "예산",
+      "pause": "일시중지",
+      "resume": "재개",
+      "dropdown": {
+        "pause": "캠페인 일시중지",
+        "resume": "캠페인 재개",
+        "delete": "캠페인 삭제"
+      }
+    },
+    "gantt": {
+      "title": "캠페인 타임라인",
+      "column": "캠페인",
+      "status": {
+        "live": "라이브",
+        "scheduled": "예약됨",
+        "paused": "일시중지",
+        "ended": "종료됨"
+      },
+      "empty": "이 날짜 범위에 캠페인이 없습니다",
+      "modal": {
+        "viewTitle": "캠페인 상세정보",
+        "editTitle": "캠페인 수정",
+        "stats": {
+          "budget": "예산",
+          "progress": "진행률",
+          "startDate": "시작일",
+          "endDate": "종료일"
+        },
+        "progressLabel": "진행률",
+        "changeStatus": "상태 변경",
+        "startCampaign": "캠페인 시작",
+        "pause": "일시중지",
+        "resume": "재개",
+        "markCompleted": "완료 표시",
+        "cancel": "취소",
+        "edit": "캠페인 수정",
+        "save": "변경사항 저장",
+        "name": "캠페인 이름",
+        "channel": "채널",
+        "budget": "예산 ($)",
+        "progress": "진행률 (%)"
+      }
+    }
+  },
+  "audience": {
+    "badge": "오디언스 인텔리전스",
+    "title": "오디언스 인텔",
+    "subtitle": "오디언스 인구통계 및 행동에 대한 심층 인사이트",
+    "segments": "세그먼트",
+    "create": "만들기",
+    "stats": {
+      "reach": "총 도달 수",
+      "reachChange": "+12.4% 이번 달",
+      "activeUsers": "활성 사용자",
+      "activeUsersChange": "+8.7% 이번 달",
+      "avgSession": "평균 세션",
+      "avgSessionChange": "지난달 대비 +15초",
+      "retention": "유지율",
+      "retentionChange": "-2.1% 이번 달"
+    },
+    "charts": {
+      "ageTitle": "연령 분포",
+      "genderTitle": "성별 분포",
+      "locationsTitle": "상위 지역",
+      "shareLegend": "비율",
+      "usersLegend": "사용자"
+    },
+    "segments_table": {
+      "title": "오디언스 세그먼트",
+      "manage": "세그먼트 관리",
+      "columns": {
+        "segment": "세그먼트",
+        "size": "규모",
+        "ltv": "평균 LTV",
+        "engagement": "참여도",
+        "actions": "작업"
+      },
+      "engagement": {
+        "high": "높음",
+        "medium": "보통",
+        "low": "낮음"
+      },
+      "target": "타겟팅"
+    }
+  },
+  "budget": {
+    "badge": "재무 개요",
+    "title": "예산 매니저",
+    "subtitle": "마케팅 지출을 추적하고 관리하세요",
+    "forecast": "예측",
+    "addFunds": "자금 추가",
+    "modal": {
+      "title": "자금 추가",
+      "amountLabel": "금액 ($)",
+      "cancel": "취소",
+      "submit": "$ 추가"
+    },
+    "overview": {
+      "annual": "연간 예산",
+      "spent": "지출됨",
+      "projected": "예상",
+      "remaining": "잔여",
+      "untilEOY": "연말까지",
+      "monthlyAvg": "월 평균",
+      "underTarget": "목표 대비 5% 낮음"
+    },
+    "spendChart": "월별 지출 vs 예산",
+    "channelBudgets": "채널 예산",
+    "transactions": {
+      "title": "최근 거래",
+      "viewAll": "전체 보기"
+    }
+  },
+  "settings": {
+    "badge": "환경설정",
+    "title": "설정",
+    "subtitle": "계정 및 애플리케이션 환경설정을 관리하세요",
+    "sections": {
+      "profile": {
+        "title": "프로필",
+        "description": "개인 정보 및 환경설정을 관리하세요",
+        "fullName": "이름",
+        "email": "이메일",
+        "role": "역할"
+      },
+      "notifications": {
+        "title": "알림",
+        "description": "알림 및 업데이트 수신 방법을 설정하세요",
+        "email": "이메일 알림",
+        "push": "푸시 알림",
+        "digest": "주간 요약",
+        "enabled": "활성화됨",
+        "disabled": "비활성화됨"
+      },
+      "security": {
+        "title": "보안",
+        "description": "계정 보안 설정을 관리하세요",
+        "twoFactor": "이중 인증",
+        "lastLogin": "마지막 로그인",
+        "sessions": "활성 세션"
+      },
+      "integrations": {
+        "title": "통합",
+        "description": "외부 서비스 및 API 연결",
+        "meta": "Meta Ads",
+        "google": "Google Ads",
+        "tiktok": "TikTok Ads",
+        "connected": "연결됨",
+        "notConnected": "연결 안 됨"
+      }
+    },
+    "danger": {
+      "title": "위험 구역",
+      "subtitle": "되돌릴 수 없는 계정 작업",
+      "delete": "계정 삭제"
+    }
+  },
+  "notifications": {
+    "campaignCreated": "캠페인 생성됨",
+    "campaignCreatedMsg": "{name}이(가) 생성되었습니다",
+    "campaignDeleted": "캠페인 삭제됨",
+    "campaignDeletedMsg": "{name}이(가) 삭제되었습니다",
+    "assetUploaded": "에셋 업로드됨",
+    "assetUploadedMsg": "{name}이(가) 추가되었습니다",
+    "assetDeleted": "에셋 삭제됨",
+    "assetDeletedMsg": "{name}이(가) 제거되었습니다",
+    "fundsAdded": "자금 추가됨",
+    "fundsAddedMsg": "${amount}이(가) 예산에 추가되었습니다",
+    "loadMore": "더 불러오기",
+    "loadMoreMsg": "서버에서 더 많은 에셋을 불러옵니다",
+    "assetSelected": "에셋 선택됨",
+    "assetSelectedMsg": "{name} 보는 중"
+  },
+  "theme": {
+    "toLightMode": "라이트 모드로 전환",
+    "toDarkMode": "다크 모드로 전환"
+  },
+  "languageSwitcher": {
+    "label": "언어",
+    "en": "English",
+    "mn": "Монгол",
+    "ko": "한국어"
+  },
+  "auth": {
+    "badge": "관리자 접속",
+    "title": "로그인",
+    "subtitle": "KUENEREE 관리 — 상품, 캠페인, 예산.",
+    "email": "이메일",
+    "password": "비밀번호",
+    "submit": "로그인",
+    "submitting": "로그인 중…",
+    "signOut": "로그아웃",
+    "loading": "세션 확인 중…",
+    "apiHint": "API: {url}",
+    "storeLink": "스토어 열기"
+  },
+  "common": {
+    "save": "저장",
+    "saving": "저장 중…",
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "편집",
+    "add": "추가",
+    "retry": "다시 시도",
+    "loading": "불러오는 중…",
+    "loadError": "데이터를 불러오지 못했습니다",
+    "saved": "저장됨",
+    "deleted": "삭제됨",
+    "confirm": "계속하시겠습니까?",
+    "close": "닫기",
+    "search": "검색…",
+    "all": "전체",
+    "none": "없음",
+    "unsaved": "저장하지 않은 변경 사항이 있습니다. 버리시겠습니까?"
+  },
+  "products": {
+    "badge": "카탈로그",
+    "title": "상품",
+    "subtitle": "kueneree에서 판매되는 모든 상품 — 가격, 사이즈, 재고, 사진.",
+    "new": "새 상품",
+    "categories": "카테고리",
+    "viewStore": "스토어 보기",
+    "stats": {
+      "total": "전체 상품",
+      "active": "판매 중",
+      "draft": "임시 / 보관",
+      "lowStock": "재고 부족 사이즈",
+      "inventoryValue": "재고 가치"
+    },
+    "filters": {
+      "all": "전체",
+      "active": "판매 중",
+      "draft": "임시",
+      "archived": "보관",
+      "category": "카테고리",
+      "allCategories": "모든 카테고리",
+      "search": "이름 또는 SKU 검색…"
+    },
+    "view": {
+      "grid": "그리드",
+      "table": "테이블"
+    },
+    "status": {
+      "ACTIVE": "판매 중",
+      "DRAFT": "임시",
+      "ARCHIVED": "보관"
+    },
+    "columns": {
+      "product": "상품",
+      "category": "카테고리",
+      "price": "가격",
+      "stock": "재고",
+      "status": "상태",
+      "updated": "업데이트"
+    },
+    "card": {
+      "featured": "추천",
+      "noSizes": "사이즈 없음",
+      "soldOut": "품절",
+      "units": "개",
+      "publish": "게시",
+      "unpublish": "임시로 전환",
+      "openInStore": "스토어에서 보기"
+    },
+    "empty": {
+      "title": "아직 상품이 없습니다",
+      "subtitle": "첫 상품을 등록하세요 — 판매 중 상태가 되면 kueneree에 표시됩니다.",
+      "filtered": "조건에 맞는 상품이 없습니다."
+    },
+    "editor": {
+      "createTitle": "새 상품",
+      "editTitle": "상품 편집",
+      "sections": {
+        "general": "기본 정보",
+        "media": "사진",
+        "inventory": "사이즈 및 재고",
+        "details": "상세",
+        "translations": "번역"
+      },
+      "name": "이름 (몽골어)",
+      "namePlaceholder": "Зузаан Цахилгаантай Худди",
+      "slug": "URL 슬러그",
+      "slugHint": "비워 두면 이름으로 자동 생성",
+      "category": "카테고리",
+      "noCategory": "카테고리 없음",
+      "status": "상태",
+      "featured": "홈 화면 추천",
+      "drop": "드롭",
+      "dropPlaceholder": "DROP 01 — FW 26",
+      "price": "가격 (₮)",
+      "compareAt": "정가 (₮)",
+      "compareAtHint": "가격보다 높으면 취소선으로 표시",
+      "upload": "사진 업로드",
+      "dropzone": "사진을 끌어다 놓거나 클릭하여 선택",
+      "dropzoneNote": "JPG, PNG, WEBP · 최대 15MB · 첫 사진이 대표 이미지",
+      "addUrl": "URL로 추가",
+      "urlPlaceholder": "https://… 또는 /images/…",
+      "cover": "대표",
+      "makeCover": "대표 이미지로",
+      "moveLeft": "왼쪽으로",
+      "moveRight": "오른쪽으로",
+      "remove": "삭제",
+      "uploading": "업로드 중…",
+      "size": "사이즈",
+      "color": "컬러",
+      "sku": "SKU",
+      "stock": "재고",
+      "priceOverride": "개별 가격",
+      "addSize": "사이즈 추가",
+      "presetApparel": "XS–XL",
+      "presetOne": "원 사이즈",
+      "noVariants": "사이즈 없음 — 사이즈 선택 없이 판매됩니다.",
+      "totalStock": "총 재고",
+      "colorName": "컬러명",
+      "colorHex": "스와치 색상",
+      "fitNote": "핏 설명",
+      "description": "설명",
+      "details": "상세",
+      "care": "소재 및 관리",
+      "translationsHint": "고객이 언어를 바꾸면 표시됩니다. 비어 있으면 몽골어가 표시됩니다.",
+      "errors": {
+        "name": "이름을 입력하세요",
+        "price": "가격은 0 이상이어야 합니다",
+        "uploadFailed": "업로드 실패"
+      }
+    },
+    "delete": {
+      "title": "상품을 삭제할까요?",
+      "description": "“{name}”이(가) 스토어에서 삭제됩니다. 기존 주문은 사본을 유지합니다. 되돌릴 수 없습니다."
+    },
+    "categoryManager": {
+      "title": "카테고리",
+      "subtitle": "kueneree 카테고리 영역과 스토어 필터에 표시됩니다.",
+      "name": "이름 (MN)",
+      "en": "EN",
+      "ko": "KO",
+      "add": "카테고리 추가",
+      "products": "개 상품",
+      "deleteConfirm": "“{name}” 카테고리를 삭제할까요? 상품은 카테고리 없이 유지됩니다."
+    },
+    "toast": {
+      "created": "상품이 등록되었습니다",
+      "updated": "상품이 저장되었습니다",
+      "deleted": "상품이 삭제되었습니다",
+      "statusChanged": "상태가 변경되었습니다"
+    }
+  },
+  "looks": {
+    "badge": "SHOP THE LOOK",
+    "title": "룩",
+    "subtitle": "kueneree 홈에 표시되는 쇼핑 가능한 룩 사진. 가격은 상품에서 자동으로 가져옵니다.",
+    "new": "새 룩",
+    "empty": "아직 룩이 없습니다 — 새로 만들고 사진을 올린 뒤 옷을 클릭해 핫스팟을 배치하세요.",
+    "published": "게시됨",
+    "draft": "임시",
+    "items": "개 상품",
+    "moveUp": "앞으로",
+    "moveDown": "뒤로",
+    "deleteConfirm": "“{name}”을(를) 삭제할까요?",
+    "saved": "룩이 저장되었습니다",
+    "deleted": "룩이 삭제되었습니다",
+    "editor": {
+      "createTitle": "새 룩",
+      "editTitle": "룩 편집",
+      "image": "사진",
+      "dropImage": "사진을 끌어다 놓거나 클릭하여 선택",
+      "dropNote": "세로/가로 모두 가능 · 원본 비율로 표시 · 핫스팟은 %로 저장",
+      "replace": "사진 교체",
+      "canvasHint": "옷을 클릭해 핫스팟 추가 · 드래그로 위치 조정",
+      "titleMn": "제목 (MN)",
+      "titleEn": "제목 (EN)",
+      "titleKo": "제목 (KO)",
+      "publish": "스토어에 게시",
+      "discount": "풀 룩 할인 (%)",
+      "discountHint": "0 = 할인 없음. 룩 전체를 담으면 자동 적용됩니다.",
+      "pieces": "핫스팟",
+      "noPieces": "핫스팟이 없습니다 — 사진을 클릭하세요.",
+      "pickProduct": "상품 선택",
+      "searchProduct": "상품 검색…",
+      "inactive": "비활성",
+      "remove": "삭제",
+      "total": "합계",
+      "bundle": "풀 룩 가격",
+      "errors": {
+        "title": "제목을 입력하세요",
+        "image": "사진을 추가하세요",
+        "product": "모든 핫스팟에 상품을 선택하세요",
+        "duplicate": "한 룩에 같은 상품은 한 번만 넣을 수 있습니다"
+      }
+    }
+  },
+  "content": {
+    "badge": "사이트 콘텐츠",
+    "title": "콘텐츠",
+    "subtitle": "kueneree 홈의 배너, 헤드라인, 텍스트.",
+    "save": "저장",
+    "saved": "저장됨 — 스토어에 바로 반영",
+    "preview": "스토어 열기",
+    "lang": "언어",
+    "hero": {
+      "title": "히어로 배너",
+      "desc": "홈 상단 전체 화면 사진과 헤드라인.",
+      "image": "배너 사진",
+      "eyebrow": "작은 문구",
+      "line1": "헤드라인 — 1줄",
+      "line2": "헤드라인 — 2줄 (강조)",
+      "drop": "드롭 라벨",
+      "frame": "사이드 라벨",
+      "subtitle": "부제",
+      "cta": "버튼 텍스트"
+    },
+    "ticker": {
+      "title": "티커",
+      "desc": "흐르는 공지 띠.",
+      "text": "공지 텍스트"
+    },
+    "campaign": {
+      "title": "캠페인",
+      "desc": "사진 두 장의 캠페인 영역.",
+      "line1": "헤드라인 — 1줄",
+      "line2": "헤드라인 — 2줄 (강조)",
+      "image1": "사진 1",
+      "image2": "사진 2",
+      "date": "장소 / 날짜"
+    },
+    "community": {
+      "title": "커뮤니티",
+      "desc": "해시태그 영역.",
+      "hashtag": "해시태그",
+      "text": "텍스트"
+    },
+    "newsletter": {
+      "title": "뉴스레터",
+      "desc": "푸터 위 구독 영역.",
+      "heading": "헤딩"
+    },
+    "image": {
+      "upload": "업로드",
+      "url": "또는 URL",
+      "remove": "삭제",
+      "uploading": "업로드 중…"
+    }
+  }
+}

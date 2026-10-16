@@ -1,0 +1,612 @@
+{
+  "sidebar": {
+    "search": "Search...",
+    "nav": {
+      "pulse": "Pulse",
+      "pulseDesc": "Overview",
+      "architect": "Architect",
+      "architectDesc": "Campaigns",
+      "engine": "Engine",
+      "engineDesc": "Analytics",
+      "products": "Products",
+      "productsDesc": "Catalog",
+      "looks": "Looks",
+      "looksDesc": "Shop the Look",
+      "content": "Content",
+      "contentDesc": "Banners",
+      "intel": "Intel",
+      "intelDesc": "Audience",
+      "budget": "Budget",
+      "budgetDesc": "Finance"
+    },
+    "settings": "Settings",
+    "userName": "John Doe",
+    "userRole": "Marketing Lead",
+    "roles": {
+      "admin": "Administrator",
+      "manager": "Store manager",
+      "marketer": "Marketer",
+      "user": "Customer"
+    }
+  },
+  "commandSearch": {
+    "placeholder": "Search commands, pages, campaigns...",
+    "empty": "No results found.",
+    "groups": {
+      "pages": "Pages",
+      "quickActions": "Quick Actions"
+    },
+    "pages": {
+      "pulse": "Pulse Dashboard",
+      "architect": "Campaign Architect",
+      "engine": "Performance Engine",
+      "products": "Products",
+      "looks": "Shop the Look",
+      "content": "Site content",
+      "intel": "Audience Intel",
+      "budget": "Budget Manager"
+    },
+    "actions": {
+      "newCampaign": "Create New Campaign",
+      "topPerformers": "View Top Performers",
+      "exportReport": "Export Report"
+    }
+  },
+  "pulse": {
+    "badge": "Real-time Overview",
+    "title": "Pulse Dashboard",
+    "subtitle": "Monitor your marketing performance at a glance",
+    "refresh": "Refresh",
+    "cards": {
+      "impressions": "Total Impressions",
+      "roas": "Active ROAS",
+      "conversion": "Conversion Rate",
+      "clicks": "Total Clicks"
+    },
+    "highlights": {
+      "title": "Today's Highlights",
+      "bestPerformer": "Best Performer",
+      "lowestCpa": "Lowest CPA",
+      "newLeads": "New Leads"
+    }
+  },
+  "campaignFeed": {
+    "title": "Live Campaign Feed",
+    "active": "active",
+    "status": {
+      "live": "LIVE",
+      "scheduled": "SCHEDULED",
+      "paused": "PAUSED",
+      "ended": "ENDED"
+    },
+    "actions": {
+      "pause": "Pause Campaign",
+      "resume": "Resume Campaign",
+      "delete": "Delete Campaign"
+    }
+  },
+  "spendCounter": {
+    "title": "Daily Spend",
+    "ofBudget": "% of budget"
+  },
+  "analytics": {
+    "badge": "Deep Analytics",
+    "title": "Performance Engine",
+    "subtitle": "Comprehensive analytics and attribution insights",
+    "last30Days": "Last 30 Days",
+    "last30DaysMobile": "30D",
+    "export": "Export",
+    "metrics": {
+      "avgRoas": "Average ROAS",
+      "avgRoasDetail": "vs. 3.7x last period",
+      "totalRevenue": "Total Revenue",
+      "totalRevenueDetail": "From all channels",
+      "cpa": "Cost Per Acquisition",
+      "cpaDetail": "15% below target",
+      "ctr": "Click-Through Rate",
+      "ctrDetail": "Industry avg: 2.1%",
+      "convRate": "Conversion Rate",
+      "convRateDetail": "Slight dip from Q4",
+      "ltv": "Customer LTV",
+      "ltvDetail": "Up from $278"
+    },
+    "performanceChart": {
+      "title": "ROAS vs Spend",
+      "subtitle": "Last 30 days performance",
+      "roas": "ROAS",
+      "spend": "Spend"
+    },
+    "attributionRadar": {
+      "title": "Channel Attribution",
+      "subtitle": "Revenue contribution by channel",
+      "label": "Attribution"
+    },
+    "channelBreakdown": {
+      "title": "Channel Breakdown",
+      "columns": {
+        "channel": "Channel",
+        "spend": "Spend",
+        "revenue": "Revenue",
+        "roas": "ROAS",
+        "conversions": "Conversions",
+        "share": "Share"
+      }
+    }
+  },
+  "architect": {
+    "badge": "Campaign Management",
+    "title": "Campaign Architect",
+    "subtitle": "Visualize and manage your campaign timeline",
+    "filter": {
+      "all": "All Status",
+      "live": "Live",
+      "paused": "Paused",
+      "scheduled": "Scheduled",
+      "ended": "Ended"
+    },
+    "export": "Export",
+    "newCampaign": "New Campaign",
+    "stats": {
+      "total": "Total Campaigns",
+      "active": "Active Now",
+      "scheduled": "Scheduled",
+      "budget": "Total Budget"
+    },
+    "modal": {
+      "createTitle": "Create New Campaign",
+      "name": "Campaign Name",
+      "namePlaceholder": "Enter campaign name",
+      "channel": "Channel",
+      "budget": "Budget ($)",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "cancel": "Cancel",
+      "create": "Create Campaign"
+    },
+    "details": {
+      "title": "Campaign Details",
+      "hint": "Click a campaign to view details",
+      "budgetLabel": "Budget",
+      "pause": "Pause",
+      "resume": "Resume",
+      "dropdown": {
+        "pause": "Pause Campaign",
+        "resume": "Resume Campaign",
+        "delete": "Delete Campaign"
+      }
+    },
+    "gantt": {
+      "title": "Campaign Timeline",
+      "column": "Campaign",
+      "status": {
+        "live": "live",
+        "scheduled": "scheduled",
+        "paused": "paused",
+        "ended": "ended"
+      },
+      "empty": "No campaigns in this date range",
+      "modal": {
+        "viewTitle": "Campaign Details",
+        "editTitle": "Edit Campaign",
+        "stats": {
+          "budget": "Budget",
+          "progress": "Progress",
+          "startDate": "Start Date",
+          "endDate": "End Date"
+        },
+        "progressLabel": "Progress",
+        "changeStatus": "Change Status",
+        "startCampaign": "Start Campaign",
+        "pause": "Pause",
+        "resume": "Resume",
+        "markCompleted": "Mark Completed",
+        "cancel": "Cancel",
+        "edit": "Edit Campaign",
+        "save": "Save Changes",
+        "name": "Campaign Name",
+        "channel": "Channel",
+        "budget": "Budget ($)",
+        "progress": "Progress (%)"
+      }
+    }
+  },
+  "audience": {
+    "badge": "Audience Intelligence",
+    "title": "Audience Intel",
+    "subtitle": "Deep insights into your audience demographics and behavior",
+    "segments": "Segments",
+    "create": "Create",
+    "stats": {
+      "reach": "Total Reach",
+      "reachChange": "+12.4% this month",
+      "activeUsers": "Active Users",
+      "activeUsersChange": "+8.7% this month",
+      "avgSession": "Avg. Session",
+      "avgSessionChange": "+15s vs last month",
+      "retention": "Retention Rate",
+      "retentionChange": "-2.1% this month"
+    },
+    "charts": {
+      "ageTitle": "Age Distribution",
+      "genderTitle": "Gender Distribution",
+      "locationsTitle": "Top Locations",
+      "shareLegend": "Share",
+      "usersLegend": "Users"
+    },
+    "segments_table": {
+      "title": "Audience Segments",
+      "manage": "Manage Segments",
+      "columns": {
+        "segment": "Segment",
+        "size": "Size",
+        "ltv": "Avg. LTV",
+        "engagement": "Engagement",
+        "actions": "Actions"
+      },
+      "engagement": {
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low"
+      },
+      "target": "Target"
+    }
+  },
+  "budget": {
+    "badge": "Financial Overview",
+    "title": "Budget Manager",
+    "subtitle": "Track and manage your marketing spend",
+    "forecast": "Forecast",
+    "addFunds": "Add Funds",
+    "modal": {
+      "title": "Add Funds",
+      "amountLabel": "Amount ($)",
+      "cancel": "Cancel",
+      "submit": "Add $"
+    },
+    "overview": {
+      "annual": "Annual Budget",
+      "spent": "Spent",
+      "projected": "Projected",
+      "remaining": "Remaining",
+      "untilEOY": "Until end of year",
+      "monthlyAvg": "Monthly Avg.",
+      "underTarget": "5% under target"
+    },
+    "spendChart": "Monthly Spend vs Budget",
+    "channelBudgets": "Channel Budgets",
+    "transactions": {
+      "title": "Recent Transactions",
+      "viewAll": "View All"
+    }
+  },
+  "settings": {
+    "badge": "Configuration",
+    "title": "Settings",
+    "subtitle": "Manage your account and application preferences",
+    "sections": {
+      "profile": {
+        "title": "Profile",
+        "description": "Manage your personal information and preferences",
+        "fullName": "Full Name",
+        "email": "Email",
+        "role": "Role"
+      },
+      "notifications": {
+        "title": "Notifications",
+        "description": "Configure how you receive alerts and updates",
+        "email": "Email Notifications",
+        "push": "Push Notifications",
+        "digest": "Weekly Digest",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "security": {
+        "title": "Security",
+        "description": "Manage your account security settings",
+        "twoFactor": "Two-Factor Auth",
+        "lastLogin": "Last Login",
+        "sessions": "Active Sessions"
+      },
+      "integrations": {
+        "title": "Integrations",
+        "description": "Connect external services and APIs",
+        "meta": "Meta Ads",
+        "google": "Google Ads",
+        "tiktok": "TikTok Ads",
+        "connected": "Connected",
+        "notConnected": "Not Connected"
+      }
+    },
+    "danger": {
+      "title": "Danger Zone",
+      "subtitle": "Irreversible account actions",
+      "delete": "Delete Account"
+    }
+  },
+  "notifications": {
+    "campaignCreated": "Campaign Created",
+    "campaignCreatedMsg": "{name} has been created",
+    "campaignDeleted": "Campaign Deleted",
+    "campaignDeletedMsg": "{name} has been deleted",
+    "assetUploaded": "Asset Uploaded",
+    "assetUploadedMsg": "{name} has been added",
+    "assetDeleted": "Asset Deleted",
+    "assetDeletedMsg": "{name} has been removed",
+    "fundsAdded": "Funds Added",
+    "fundsAddedMsg": "${amount} has been added to your budget",
+    "loadMore": "Load More",
+    "loadMoreMsg": "More assets would be loaded from the server",
+    "assetSelected": "Asset Selected",
+    "assetSelectedMsg": "Viewing {name}"
+  },
+  "theme": {
+    "toLightMode": "Switch to light mode",
+    "toDarkMode": "Switch to dark mode"
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "mn": "Монгол",
+    "ko": "한국어"
+  },
+  "auth": {
+    "badge": "ADMIN ACCESS",
+    "title": "Sign in",
+    "subtitle": "KUENEREE control room — products, campaigns and budget.",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign in",
+    "submitting": "Signing in…",
+    "signOut": "Sign out",
+    "loading": "Checking session…",
+    "apiHint": "API: {url}",
+    "storeLink": "Open store"
+  },
+  "common": {
+    "save": "Save",
+    "saving": "Saving…",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "retry": "Retry",
+    "loading": "Loading…",
+    "loadError": "Could not load data",
+    "saved": "Saved",
+    "deleted": "Deleted",
+    "confirm": "Are you sure?",
+    "close": "Close",
+    "search": "Search…",
+    "all": "All",
+    "none": "None",
+    "unsaved": "You have unsaved changes. Discard them?"
+  },
+  "products": {
+    "badge": "CATALOG",
+    "title": "Products",
+    "subtitle": "Everything sold on kueneree — prices, sizes, stock and photos.",
+    "new": "New product",
+    "categories": "Categories",
+    "viewStore": "View store",
+    "stats": {
+      "total": "Products",
+      "active": "Live in store",
+      "draft": "Draft / archived",
+      "lowStock": "Low-stock sizes",
+      "inventoryValue": "Inventory value"
+    },
+    "filters": {
+      "all": "All",
+      "active": "Active",
+      "draft": "Draft",
+      "archived": "Archived",
+      "category": "Category",
+      "allCategories": "All categories",
+      "search": "Search by name or SKU…"
+    },
+    "view": {
+      "grid": "Grid",
+      "table": "Table"
+    },
+    "status": {
+      "ACTIVE": "Active",
+      "DRAFT": "Draft",
+      "ARCHIVED": "Archived"
+    },
+    "columns": {
+      "product": "Product",
+      "category": "Category",
+      "price": "Price",
+      "stock": "Stock",
+      "status": "Status",
+      "updated": "Updated"
+    },
+    "card": {
+      "featured": "Featured",
+      "noSizes": "No sizes",
+      "soldOut": "Sold out",
+      "units": "pcs",
+      "publish": "Publish",
+      "unpublish": "Move to draft",
+      "openInStore": "Open in store"
+    },
+    "empty": {
+      "title": "No products yet",
+      "subtitle": "Create your first product — it appears on kueneree as soon as it is Active.",
+      "filtered": "No products match these filters."
+    },
+    "editor": {
+      "createTitle": "New product",
+      "editTitle": "Edit product",
+      "sections": {
+        "general": "General",
+        "media": "Photos",
+        "inventory": "Sizes & stock",
+        "details": "Details",
+        "translations": "Translations"
+      },
+      "name": "Name (Mongolian)",
+      "namePlaceholder": "Зузаан Цахилгаантай Худди",
+      "slug": "URL slug",
+      "slugHint": "Auto-generated from the name if empty",
+      "category": "Category",
+      "noCategory": "No category",
+      "status": "Status",
+      "featured": "Featured on home page",
+      "drop": "Drop",
+      "dropPlaceholder": "DROP 01 — FW 26",
+      "price": "Price (₮)",
+      "compareAt": "Compare-at price (₮)",
+      "compareAtHint": "Shown struck-through when higher than price",
+      "upload": "Upload photos",
+      "dropzone": "Drag photos here or click to choose",
+      "dropzoneNote": "JPG, PNG, WEBP · up to 15 MB · first photo is the cover",
+      "addUrl": "Add by URL",
+      "urlPlaceholder": "https://… or /images/…",
+      "cover": "Cover",
+      "makeCover": "Set as cover",
+      "moveLeft": "Move left",
+      "moveRight": "Move right",
+      "remove": "Remove",
+      "uploading": "Uploading…",
+      "size": "Size",
+      "color": "Color",
+      "sku": "SKU",
+      "stock": "Stock",
+      "priceOverride": "Price override",
+      "addSize": "Add size",
+      "presetApparel": "XS–XL",
+      "presetOne": "One size",
+      "noVariants": "No sizes — product is sold without size selection.",
+      "totalStock": "Total stock",
+      "colorName": "Color name",
+      "colorHex": "Swatch color",
+      "fitNote": "Fit note",
+      "description": "Description",
+      "details": "Details",
+      "care": "Material & care",
+      "translationsHint": "Shown when the shopper switches language. Empty fields fall back to Mongolian.",
+      "errors": {
+        "name": "Name is required",
+        "price": "Price must be 0 or more",
+        "uploadFailed": "Upload failed"
+      }
+    },
+    "delete": {
+      "title": "Delete product?",
+      "description": "“{name}” will be removed from the store. Past orders keep their copy. This cannot be undone."
+    },
+    "categoryManager": {
+      "title": "Categories",
+      "subtitle": "Shown in the kueneree category strip and shop filter.",
+      "name": "Name (MN)",
+      "en": "EN",
+      "ko": "KO",
+      "add": "Add category",
+      "products": "products",
+      "deleteConfirm": "Delete category “{name}”? Products keep existing without a category."
+    },
+    "toast": {
+      "created": "Product created",
+      "updated": "Product saved",
+      "deleted": "Product deleted",
+      "statusChanged": "Status updated"
+    }
+  },
+  "looks": {
+    "badge": "SHOP THE LOOK",
+    "title": "Looks",
+    "subtitle": "Photos with shoppable hotspots on the kueneree home page. Prices come from products automatically.",
+    "new": "New look",
+    "empty": "No looks yet — create one, drop a photo and tap on the clothes to place hotspots.",
+    "published": "Published",
+    "draft": "Draft",
+    "items": "pieces",
+    "moveUp": "Move earlier",
+    "moveDown": "Move later",
+    "deleteConfirm": "Delete “{name}”?",
+    "saved": "Look saved",
+    "deleted": "Look deleted",
+    "editor": {
+      "createTitle": "New look",
+      "editTitle": "Edit look",
+      "image": "Photo",
+      "dropImage": "Drop a photo here or click to choose",
+      "dropNote": "Any orientation · shown at its real aspect ratio · hotspots are stored as %",
+      "replace": "Replace photo",
+      "canvasHint": "Click on a garment to add a hotspot · drag hotspots to move them",
+      "titleMn": "Title (MN)",
+      "titleEn": "Title (EN)",
+      "titleKo": "Title (KO)",
+      "publish": "Published on the store",
+      "discount": "Full-look discount (%)",
+      "discountHint": "0 = no discount. Applied automatically when the whole look is in the bag.",
+      "pieces": "Hotspots",
+      "noPieces": "No hotspots yet — click on the photo.",
+      "pickProduct": "Choose product",
+      "searchProduct": "Search products…",
+      "inactive": "not active",
+      "remove": "Remove",
+      "total": "Total",
+      "bundle": "Full-look price",
+      "errors": {
+        "title": "Title is required",
+        "image": "Add a photo",
+        "product": "Choose a product for every hotspot",
+        "duplicate": "A product can appear only once per look"
+      }
+    }
+  },
+  "content": {
+    "badge": "SITE CONTENT",
+    "title": "Content",
+    "subtitle": "Banners, headlines and texts on the kueneree home page.",
+    "save": "Save section",
+    "saved": "Saved — live on the store",
+    "preview": "Open store",
+    "lang": "Language",
+    "hero": {
+      "title": "Hero banner",
+      "desc": "Full-screen photo and headline at the top of the home page.",
+      "image": "Banner photo",
+      "eyebrow": "Eyebrow (small line)",
+      "line1": "Headline — line 1",
+      "line2": "Headline — line 2 (accent)",
+      "drop": "Drop label",
+      "frame": "Side label",
+      "subtitle": "Subtitle",
+      "cta": "Button text"
+    },
+    "ticker": {
+      "title": "Ticker",
+      "desc": "Scrolling announcement strip.",
+      "text": "Announcement text"
+    },
+    "campaign": {
+      "title": "Campaign",
+      "desc": "Campaign archive block with two photos.",
+      "line1": "Headline — line 1",
+      "line2": "Headline — line 2 (accent)",
+      "image1": "Photo 1",
+      "image2": "Photo 2",
+      "date": "Place / date"
+    },
+    "community": {
+      "title": "Community",
+      "desc": "Hashtag block.",
+      "hashtag": "Hashtag",
+      "text": "Text"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "desc": "Sign-up block above the footer.",
+      "heading": "Heading"
+    },
+    "image": {
+      "upload": "Upload",
+      "url": "or paste URL",
+      "remove": "Remove",
+      "uploading": "Uploading…"
+    }
+  }
+}
